@@ -5,7 +5,8 @@
     <link>https://RyanBrushett.github.io/</link>
     <description>Recent content on ryan brushett</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://RyanBrushett.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 24 Nov 2020 22:28:19 -0500</lastBuildDate><atom:link href="https://RyanBrushett.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hi</title>
       <link>https://RyanBrushett.github.io/about/</link>
@@ -15,6 +16,15 @@
       <description>I like animals, wine, and music.
 I&amp;rsquo;m a senior production engineer at Shopify.
 I&amp;rsquo;m from Newfoundland, which is the best place on earth.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://RyanBrushett.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 24 Nov 2020 22:28:19 -0500</pubDate>
+      
+      <guid>https://RyanBrushett.github.io/posts/my-first-post/</guid>
+      <description>Yeah I might actually use this to write about things.</description>
     </item>
     
   </channel>
