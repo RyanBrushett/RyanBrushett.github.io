@@ -2,20 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ryanbrushett.com/categories/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/development/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/film/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/categories/photography/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/posts/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/posts/pushing-delta-3200/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/technique/</loc>
+    <lastmod>2022-02-15T22:52:43-05:00</lastmod>
+  </url><url>
     <loc>https://www.ryanbrushett.com/about/</loc>
     <lastmod>2020-11-24T23:34:17-05:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/posts/my-first-post/</loc>
     <lastmod>2020-11-24T22:28:19-05:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/posts/</loc>
-    <lastmod>2020-11-24T22:28:19-05:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/</loc>
-    <lastmod>2020-11-24T22:28:19-05:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/categories/</loc>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/tags/</loc>
   </url>
 </urlset>

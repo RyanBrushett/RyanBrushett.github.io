@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ryan brushett</title>
-    <link>https://www.ryanbrushett.com/posts/</link>
-    <description>Recent content in Posts on ryan brushett</description>
+    <title>Photography on ryan brushett</title>
+    <link>https://www.ryanbrushett.com/categories/photography/</link>
+    <description>Recent content in Photography on ryan brushett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Feb 2022 22:52:43 -0500</lastBuildDate><atom:link href="https://www.ryanbrushett.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 22:52:43 -0500</lastBuildDate><atom:link href="https://www.ryanbrushett.com/categories/photography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pushing Delta 3200</title>
       <link>https://www.ryanbrushett.com/posts/pushing-delta-3200/</link>
@@ -16,16 +16,6 @@
       <description>Unless you&amp;rsquo;re interested in reading why I like fast film, you can skip to this section for how I actually develop it. That&amp;rsquo;s the part that covers what made me want to write this in the first place. I kept losing my notes so this will actually serve as a long-winded note-to-self.
 If you want to skip to some pictures, see results.
  Historical context Around 2007, I got pretty into photography.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://www.ryanbrushett.com/posts/my-first-post/</link>
-      <pubDate>Tue, 24 Nov 2020 22:28:19 -0500</pubDate>
-      
-      <guid>https://www.ryanbrushett.com/posts/my-first-post/</guid>
-      <description>Yeah I might actually use this to write about things.
-(2022-02-03): I&amp;rsquo;ve got so many half-finished drafts that have just been sitting there, neatly tucked away in their own little branches. Maybe I was just never destined to write like this.</description>
     </item>
     
   </channel>
