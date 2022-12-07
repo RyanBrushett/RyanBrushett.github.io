@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ryanbrushett.com/posts/advent-one/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
     <loc>https://www.ryanbrushett.com/categories/</loc>
-    <lastmod>2022-03-29T11:27:09-04:00</lastmod>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/code/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/posts/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/programming/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/ruby/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/categories/software-development/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/tags/</loc>
+    <lastmod>2022-12-06T22:36:58-05:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/tags/film/</loc>
     <lastmod>2022-03-29T11:27:09-04:00</lastmod>
@@ -12,15 +36,6 @@
     <lastmod>2022-03-29T11:27:09-04:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/categories/photography/</loc>
-    <lastmod>2022-03-29T11:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/posts/</loc>
-    <lastmod>2022-03-29T11:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/</loc>
-    <lastmod>2022-03-29T11:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/tags/</loc>
     <lastmod>2022-03-29T11:27:09-04:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/tags/technical/</loc>
