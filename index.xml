@@ -6,70 +6,69 @@
     <description>Recent content on ryan brushett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 19 Apr 2023 21:39:03 -0400</lastBuildDate><atom:link href="https://www.ryanbrushett.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 12:59:17 -0500</lastBuildDate>
+    <atom:link href="https://www.ryanbrushett.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code 2023</title>
+      <link>https://www.ryanbrushett.com/posts/advent-2023/</link>
+      <pubDate>Sun, 03 Dec 2023 12:59:17 -0500</pubDate>
+      <guid>https://www.ryanbrushett.com/posts/advent-2023/</guid>
+      <description>TL;DR: I probably won&amp;rsquo;t stick with advent of code again but I&amp;rsquo;m going to try!
+I once eagerly declared my intention to finish Advent of Code and then didn&amp;rsquo;t. I&amp;rsquo;m going to be a bit more realistic about my expectations this year.
+This is what I said in my follow-up on accountability&amp;hellip;
+Next year I hope to do better, get farther, be faster, etc. I&amp;rsquo;ll use Ruby again! And it&amp;rsquo;ll be a lot of fun again!</description>
+    </item>
     <item>
       <title>Advent Update</title>
       <link>https://www.ryanbrushett.com/posts/advent-two/</link>
       <pubDate>Wed, 19 Apr 2023 21:39:03 -0400</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/advent-two/</guid>
       <description>TL;DR: I never stuck with Advent of Code and I think that&amp;rsquo;s mostly OK.
 As a follow up to my eager and excited post about Advent of Code&amp;hellip; I was definitely getting ahead of myself haha. I&amp;rsquo;ve still never completed a full advent of code.
 On learning stuff I said the thing I&amp;rsquo;d set out to learn is &amp;ldquo;finishing Advent of Code&amp;rdquo; but I actually learned a lot, even using a language I&amp;rsquo;m pretty handy with.</description>
     </item>
-    
     <item>
       <title>Advent of Code 2022</title>
       <link>https://www.ryanbrushett.com/posts/advent-one/</link>
       <pubDate>Tue, 06 Dec 2022 22:36:58 -0500</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/advent-one/</guid>
       <description>TL;DR: So far so good&amp;hellip; follow along on Github!
 I&amp;rsquo;m probably getting ahead of myself by writing this but it seems like I might actually be sticking with Advent of Code this year. I&amp;rsquo;ve set myself up for success and maybe this will hold me accountable&amp;hellip;
 On Learning Stuff I&amp;rsquo;ve never completed a full Advent of Code.
 Around October of this year I decided that was probably because I was trying to do too much at once.</description>
     </item>
-    
     <item>
       <title>How Does Film Work?</title>
       <link>https://www.ryanbrushett.com/posts/how-does-film-work/</link>
       <pubDate>Tue, 29 Mar 2022 11:27:09 -0400</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/how-does-film-work/</guid>
       <description>I wrote a thing about Pushing Delta 3200 which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I&amp;rsquo;d like to explore some of the technical stuff a bit more. It&amp;rsquo;s a good excuse for me to research these things.
 Seems logical to talk about what film actually is and how it works.</description>
     </item>
-    
     <item>
       <title>Pushing Delta 3200</title>
       <link>https://www.ryanbrushett.com/posts/pushing-delta-3200/</link>
       <pubDate>Fri, 18 Feb 2022 00:52:43 -0500</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/pushing-delta-3200/</guid>
       <description>Unless you&amp;rsquo;re interested in reading why I like fast film, you can skip to this section for how I actually develop it. That&amp;rsquo;s the part that covers what made me want to write this in the first place. I kept losing my notes so this will actually serve as a long-winded note-to-self.
 If you want to skip to some pictures, see results.
 Historical context Around 2007, I got pretty into photography.</description>
     </item>
-    
     <item>
       <title>Hi</title>
       <link>https://www.ryanbrushett.com/about/</link>
       <pubDate>Tue, 24 Nov 2020 23:34:17 -0500</pubDate>
-      
       <guid>https://www.ryanbrushett.com/about/</guid>
       <description>I grew up and lived most of my life on the island of Newfoundland which is easily the best place on the planet. The people, the land, the sea, the culture - it&amp;rsquo;s such a special place to call home. I got my B.Sc. studying computer science at Memorial University in St. John&amp;rsquo;s. I wasn&amp;rsquo;t great at school but I loved it and worked hard.
 In 2022, I started working at a company called Fullscript, hacking on Developer tools.</description>
     </item>
-    
     <item>
       <title>My First Post</title>
       <link>https://www.ryanbrushett.com/posts/my-first-post/</link>
       <pubDate>Tue, 24 Nov 2020 22:28:19 -0500</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/my-first-post/</guid>
       <description>Yeah I might actually use this to write about things.
 (2022-02-03): I&amp;rsquo;ve got so many half-finished drafts that have just been sitting there, neatly tucked away in their own little branches. Maybe I was just never destined to write like this.</description>
     </item>
-    
   </channel>
 </rss>

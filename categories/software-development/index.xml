@@ -6,29 +6,36 @@
     <description>Recent content in Software Development on ryan brushett</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 19 Apr 2023 21:39:03 -0400</lastBuildDate><atom:link href="https://www.ryanbrushett.com/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 12:59:17 -0500</lastBuildDate>
+    <atom:link href="https://www.ryanbrushett.com/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code 2023</title>
+      <link>https://www.ryanbrushett.com/posts/advent-2023/</link>
+      <pubDate>Sun, 03 Dec 2023 12:59:17 -0500</pubDate>
+      <guid>https://www.ryanbrushett.com/posts/advent-2023/</guid>
+      <description>TL;DR: I probably won&amp;rsquo;t stick with advent of code again but I&amp;rsquo;m going to try!
+I once eagerly declared my intention to finish Advent of Code and then didn&amp;rsquo;t. I&amp;rsquo;m going to be a bit more realistic about my expectations this year.
+This is what I said in my follow-up on accountability&amp;hellip;
+Next year I hope to do better, get farther, be faster, etc. I&amp;rsquo;ll use Ruby again! And it&amp;rsquo;ll be a lot of fun again!</description>
+    </item>
     <item>
       <title>Advent Update</title>
       <link>https://www.ryanbrushett.com/posts/advent-two/</link>
       <pubDate>Wed, 19 Apr 2023 21:39:03 -0400</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/advent-two/</guid>
       <description>TL;DR: I never stuck with Advent of Code and I think that&amp;rsquo;s mostly OK.
 As a follow up to my eager and excited post about Advent of Code&amp;hellip; I was definitely getting ahead of myself haha. I&amp;rsquo;ve still never completed a full advent of code.
 On learning stuff I said the thing I&amp;rsquo;d set out to learn is &amp;ldquo;finishing Advent of Code&amp;rdquo; but I actually learned a lot, even using a language I&amp;rsquo;m pretty handy with.</description>
     </item>
-    
     <item>
       <title>Advent of Code 2022</title>
       <link>https://www.ryanbrushett.com/posts/advent-one/</link>
       <pubDate>Tue, 06 Dec 2022 22:36:58 -0500</pubDate>
-      
       <guid>https://www.ryanbrushett.com/posts/advent-one/</guid>
       <description>TL;DR: So far so good&amp;hellip; follow along on Github!
 I&amp;rsquo;m probably getting ahead of myself by writing this but it seems like I might actually be sticking with Advent of Code this year. I&amp;rsquo;ve set myself up for success and maybe this will hold me accountable&amp;hellip;
 On Learning Stuff I&amp;rsquo;ve never completed a full Advent of Code.
 Around October of this year I decided that was probably because I was trying to do too much at once.</description>
     </item>
-    
   </channel>
 </rss>
