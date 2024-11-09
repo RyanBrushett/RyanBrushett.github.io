@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="en-gb">
+<head>
+  <title>
+  Advent of Code 2023 · ryan brushett
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="I&#39;m Ryan">
-    <meta name="description" content="I&#39;m not committing to anything this time 😅">
-    <meta name="keywords" content="blog,developer,personal">
 
-    
+
+
+<meta name="author" content="I&#39;m Ryan">
+<meta name="description" content="I&#39;m not committing to anything this time 😅">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Advent of Code 2023">
   <meta name="twitter:description" content="I&#39;m not committing to anything this time 😅">
 
-    <meta property="og:url" content="https://www.ryanbrushett.com/posts/advent-2023/">
+<meta property="og:url" content="https://www.ryanbrushett.com/posts/advent-2023/">
   <meta property="og:site_name" content="ryan brushett">
   <meta property="og:title" content="Advent of Code 2023">
   <meta property="og:description" content="I&#39;m not committing to anything this time 😅">
@@ -29,90 +36,99 @@
     <meta property="article:tag" content="Ruby">
 
 
-    <title>
-  Advent of Code 2023 · ryan brushett
-</title>
 
-    
-      <link rel="canonical" href="https://www.ryanbrushett.com/posts/advent-2023/">
-    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
-      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css">
-    
-      
-      
-      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
-    
+<link rel="canonical" href="https://www.ryanbrushett.com/posts/advent-2023/">
 
-    
 
-    
-      
-        
-        
-        <link rel="stylesheet" href="/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
-      
-    
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-      <link rel="stylesheet" href="/css/custom.css" />
-    
-
-    
-
-    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
-
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-
-    
-      <script defer src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js"
-        integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
-    
-
-    <meta name="generator" content="Hugo 0.128.2">
-  </head>
 
   
   
-    
+  <link rel="stylesheet" href="/css/coder.min.aa5ef26fa979d6793724ae2dbd71efa94fd16cb1c5c7db3b6651f21f9892a5fd.css" integrity="sha256-ql7yb6l51nk3JK4tvXHvqU/RbLHFx9s7ZlHyH5iSpf0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
   
-  <body class="colorscheme-auto"
-        onload=" twemoji.parse(document.body); "
-  >
     
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.a415ad34b5cd8467d73a92c965a300b117a9e9d390bde761874ba3e044d9698c.css" integrity="sha256-pBWtNLXNhGfXOpLJZaMAsRep6dOQvedhh0uj4ETZaYw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
     </a>
 </div>
 
 
-    <main class="wrapper">
-      <nav class="navigation">
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="/">
+    
+    <a class="navigation-title" href="https://www.ryanbrushett.com/">
       ryan brushett
     </a>
     
+    
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
       </label>
       <ul class="navigation-list">
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/posts/">Blog</a>
+              <a class="navigation-link " href="/posts/">Blog</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
+              <a class="navigation-link " href="/about/">About</a>
             </li>
           
         
@@ -123,63 +139,67 @@
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container post">
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Advent of Code 2023</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://www.ryanbrushett.com/posts/advent-2023/">
+              Advent of Code 2023
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2023-12-03T12:59:17-05:00'>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-12-03T12:59:17-05:00">
                 December 3, 2023
               </time>
             </span>
             <span class="reading-time">
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               
             </span>
           </div>
           
           <div class="categories">
-  <i class="fa fa-folder" aria-hidden="true"></i>
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
     <a href="/categories/software-development/">Software Development</a></div>
 
           <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
-    <a href="/tags/code/">code</a>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/code/">Code</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/programming/">programming</a>
+    <span class="tag">
+      <a href="/tags/programming/">Programming</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/ruby/">ruby</a></div>
+    <span class="tag">
+      <a href="/tags/ruby/">Ruby</a>
+    </span></div>
 
         </div>
       </header>
 
-      <div>
+      <div class="post-content">
         
         <blockquote>
 <p><strong>TL;DR</strong>: I probably won&rsquo;t stick with advent of code again but I&rsquo;m going to try!</p>
 </blockquote>
-<p>I once <a href="/posts/advent-one">eagerly declared my intention to finish Advent of Code</a> and then didn&rsquo;t. I&rsquo;m going to
-be a bit more realistic about my expectations this year.</p>
-<p>This is what I said in my <a href="/posts/advent-two/">follow-up on accountability</a>&hellip;</p>
+<p>I once <a href="/posts/advent-one" >eagerly declared my intention to finish Advent of Code</a> and then didn&rsquo;t. I&rsquo;m going to be a bit more realistic about my expectations this year.</p>
+<p>This is what I said in my <a href="/posts/advent-two/" >follow-up on accountability</a>&hellip;</p>
 <blockquote>
-<p>Next year I hope to do better, get farther, be faster, etc. I&rsquo;ll use Ruby again! And it&rsquo;ll be a lot of fun again! And
-if it starts to feel like a chore at any point, I won&rsquo;t do it and that&rsquo;s fine.</p>
+<p>Next year I hope to do better, get farther, be faster, etc. I&rsquo;ll use Ruby again! And it&rsquo;ll be a lot of fun again! And if it starts to feel like a chore at any point, I won&rsquo;t do it and that&rsquo;s fine.</p>
 </blockquote>
-<p>So that&rsquo;s where we&rsquo;re starting from. I hope I get further this year but I also hope I spend a lot of December riding
-my bike, taking photos, spending time with friends, catching up with family, playing video games, playing guitar,
-playing D&amp;D, cooking, continuing to learn French&hellip; mais vous m&rsquo;avez compris.</p>
+<p>So that&rsquo;s where we&rsquo;re starting from. I hope I get further this year but I also hope I spend a lot of December riding my bike, taking photos, spending time with friends, catching up with family, playing video games, playing guitar, playing D&amp;D, cooking, continuing to learn French&hellip; mais vous m&rsquo;avez compris.</p>
 <p>I&rsquo;m not sure how I end up collecting so many hobbies 😅</p>
-<p>Anyway, if you want to see exactly how long it is that overengineering solutions to word problems brings me joy, you
-can follow along <a href="https://github.com/RyanBrushett/adventofcode2023">on my Github account</a>.
-If you like programming, you should absolutely <a href="https://adventofcode.com/">check out Advent of Code</a> every year.</p>
-<p>If you have the means, you can also <a href="https://adventofcode.com/2023/support">support the project</a>!</p>
+<p>Anyway, if you want to see exactly how long it is that overengineering solutions to word problems brings me joy, you can follow along <a href="https://github.com/RyanBrushett/adventofcode2023"  class="external-link" target="_blank" rel="noopener">on my Github account</a>. If you like programming, you should absolutely <a href="https://adventofcode.com/"  class="external-link" target="_blank" rel="noopener">check out Advent of Code</a> every year.</p>
+<p>If you have the means, you can also <a href="https://adventofcode.com/2023/support"  class="external-link" target="_blank" rel="noopener">support the project</a>!</p>
 
       </div>
 
@@ -191,48 +211,78 @@ If you like programming, you should absolutely <a href="https://adventofcode.com
         
         
         
+        
+        
+        
+        
       </footer>
     </article>
 
     
   </section>
 
-      </div>
+    </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-      
-      
-      
-    </section>
-  </footer>
-
-
-    </main>
-
+    <footer class="footer">
+  <section class="container">
+    ©
     
-      
-        
-        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
-      
+      2020 -
     
+    2024
+     I&#39;m Ryan 
+    ·
+    
+     <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
 
-    
+  </main>
 
-    
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
   
 
 
+  
 
-    
+  
 
-    
+  
 
-    
+  
 
-    
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>

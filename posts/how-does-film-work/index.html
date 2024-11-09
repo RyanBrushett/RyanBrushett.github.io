@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="en-gb">
+<head>
+  <title>
+  How Does Film Work? · ryan brushett
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="I&#39;m Ryan">
-    <meta name="description" content="I wrote a thing about Pushing Delta 3200 which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I&rsquo;d like to explore some of the technical stuff a bit more. It&rsquo;s a good excuse for me to research these things.
+
+
+
+<meta name="author" content="I&#39;m Ryan">
+<meta name="description" content="I wrote a thing about Pushing Delta 3200 which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I&rsquo;d like to explore some of the technical stuff a bit more. It&rsquo;s a good excuse for me to research these things.
 Seems logical to talk about what film actually is and how it works.">
-    <meta name="keywords" content="blog,developer,personal">
+<meta name="keywords" content="blog,developer,personal">
 
-    
+
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="How Does Film Work?">
   <meta name="twitter:description" content="I wrote a thing about Pushing Delta 3200 which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I’d like to explore some of the technical stuff a bit more. It’s a good excuse for me to research these things.
 Seems logical to talk about what film actually is and how it works.">
 
-    <meta property="og:url" content="https://www.ryanbrushett.com/posts/how-does-film-work/">
+<meta property="og:url" content="https://www.ryanbrushett.com/posts/how-does-film-work/">
   <meta property="og:site_name" content="ryan brushett">
   <meta property="og:title" content="How Does Film Work?">
   <meta property="og:description" content="I wrote a thing about Pushing Delta 3200 which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I’d like to explore some of the technical stuff a bit more. It’s a good excuse for me to research these things.
@@ -31,90 +38,99 @@ Seems logical to talk about what film actually is and how it works.">
     <meta property="article:tag" content="Technical">
 
 
-    <title>
-  How Does Film Work? · ryan brushett
-</title>
 
-    
-      <link rel="canonical" href="https://www.ryanbrushett.com/posts/how-does-film-work/">
-    
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
-      integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css">
-    
-      
-      
-      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
-    
+<link rel="canonical" href="https://www.ryanbrushett.com/posts/how-does-film-work/">
 
-    
 
-    
-      
-        
-        
-        <link rel="stylesheet" href="/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
-      
-    
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-      <link rel="stylesheet" href="/css/custom.css" />
-    
-
-    
-
-    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
-
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-
-    
-      <script defer src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js"
-        integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
-    
-
-    <meta name="generator" content="Hugo 0.128.2">
-  </head>
 
   
   
-    
+  <link rel="stylesheet" href="/css/coder.min.aa5ef26fa979d6793724ae2dbd71efa94fd16cb1c5c7db3b6651f21f9892a5fd.css" integrity="sha256-ql7yb6l51nk3JK4tvXHvqU/RbLHFx9s7ZlHyH5iSpf0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
   
-  <body class="colorscheme-auto"
-        onload=" twemoji.parse(document.body); "
-  >
     
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.a415ad34b5cd8467d73a92c965a300b117a9e9d390bde761874ba3e044d9698c.css" integrity="sha256-pBWtNLXNhGfXOpLJZaMAsRep6dOQvedhh0uj4ETZaYw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
     </a>
 </div>
 
 
-    <main class="wrapper">
-      <nav class="navigation">
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="/">
+    
+    <a class="navigation-title" href="https://www.ryanbrushett.com/">
       ryan brushett
     </a>
     
+    
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
       </label>
       <ul class="navigation-list">
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/posts/">Blog</a>
+              <a class="navigation-link " href="/posts/">Blog</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="/about/">About</a>
+              <a class="navigation-link " href="/about/">About</a>
             </li>
           
         
@@ -125,224 +141,171 @@ Seems logical to talk about what film actually is and how it works.">
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container post">
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">How Does Film Work?</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://www.ryanbrushett.com/posts/how-does-film-work/">
+              How Does Film Work?
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime='2022-03-29T11:27:09-04:00'>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-03-29T11:27:09-04:00">
                 March 29, 2022
               </time>
             </span>
             <span class="reading-time">
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               
             </span>
           </div>
           
           <div class="categories">
-  <i class="fa fa-folder" aria-hidden="true"></i>
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
     <a href="/categories/photography/">Photography</a></div>
 
           <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
-    <a href="/tags/film/">film</a>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/film/">Film</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/technical/">technical</a></div>
+    <span class="tag">
+      <a href="/tags/technical/">Technical</a>
+    </span></div>
 
         </div>
       </header>
 
-      <div>
+      <div class="post-content">
         
-        <p>I wrote a
-<a href="/posts/pushing-delta-3200/">thing about Pushing Delta 3200</a>
-which very lightly skimmed over a lot of actually pretty interesting things.
-I gave a high-level overview of how I develop a specific black and white film
-(with a lot about why I do it that way) but I&rsquo;d like to
-explore some of the technical stuff a bit more. It&rsquo;s a good excuse for me to
-research these things.</p>
+        <p>I wrote a <a href="/posts/pushing-delta-3200/" >thing about Pushing Delta 3200</a> which very lightly skimmed over a lot of actually pretty interesting things. I gave a high-level overview of how I develop a specific black and white film (with a lot about why I do it that way) but I&rsquo;d like to explore some of the technical stuff a bit more. It&rsquo;s a good excuse for me to research these things.</p>
 <p>Seems logical to talk about what film actually is and how it works.</p>
 <p><em><strong>Note:</strong> I&rsquo;m definitely not a physicist or a chemist so let&rsquo;s keep this simple.</em></p>
-<h3 id="plastic-silver-salt-and-jello">Plastic, Silver Salt, and&hellip; Jello?</h3>
-<p>In its most basic form, photographic film is a bunch of silver salt crystals
-(we&rsquo;ll call them &ldquo;grain&rdquo; when they&rsquo;re developed),
-suspended in gelatin, on a layer of protective plastic.</p>
-<p>The silver salts
-(more precisely &ldquo;silver halides&rdquo;) you&rsquo;ll find in photographic film are
-silver chloride (<code>AgCl</code>), silver bromide (<code>AgBr</code>), and silver iodide (<code>AgI</code>).
-These aren&rsquo;t completely dissimilar to a halide we&rsquo;re very familiar with,
-sodium chloride (<code>NaCl</code>), but they do have a handy physical property that
-makes them an essential part of photographic film: photosensitivity. They
-darken very quickly when exposed to light!</p>
-<p>These silver halides are suspended in gelatin to form the &ldquo;photographic
-emulsion&rdquo; which is
-<a href="https://en.wikipedia.org/wiki/Sol_(colloid)">not really an emulsion</a>
-but that&rsquo;s the term that stuck. Gelatin in this case is the same stuff
-that makes Jello wiggle. I did some digging while writing this and couldn&rsquo;t
-find a photographic film that does not use gelatin. I found this kind of
-mind-blowing.</p>
-<p>Since gelatin by itself would be relatively delicate, the silver-gelatin
-suspension is applied to a plastic protective film and voilà! You have
-extremely basic black-and-white photographic film!
-We&rsquo;ll talk about other elements of the design later.</p>
-<h3 id="film-and-light">Film and Light</h3>
-<p>We have a strip of plastic with a layer of gelatin on it and a bunch of
-chunky silver halide crystals suspended in the gelatin.
-Let&rsquo;s say we expose it to some light.</p>
-<p>Photons, the fundamental particles that represent electromagnetic radiation such as light
-(including UV and infrared light),
-fly through our gelatin. Some of those photons hit the surface of one of our silver
-halide crystals!
-When this happens, some of the silver halide molecules
-<a href="https://en.wikipedia.org/wiki/Organic_redox_reaction">reduce</a>
-leaving a few atoms of metallic silver on the crystal. Remember the darkening I
-mentioned in the previous section? This is what&rsquo;s happening under the hood.
-With sufficient exposure, there&rsquo;ll be clusters of metallic silver atoms
-that will form what&rsquo;s called a
-<a href="https://en.wikipedia.org/wiki/Latent_image">latent image</a>.
-The latent image is persistent and quite stable, especially when kept cool.</p>
+<h3 id="plastic-silver-salt-and-jello">
+  Plastic, Silver Salt, and&hellip; Jello?
+  <a class="heading-link" href="#plastic-silver-salt-and-jello">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In its most basic form, photographic film is a bunch of silver salt crystals (we&rsquo;ll call them &ldquo;grain&rdquo; when they&rsquo;re developed), suspended in gelatin, on a layer of protective plastic.</p>
+<p>The silver salts (more precisely &ldquo;silver halides&rdquo;) you&rsquo;ll find in photographic film are silver chloride (<code>AgCl</code>), silver bromide (<code>AgBr</code>), and silver iodide (<code>AgI</code>). These aren&rsquo;t completely dissimilar to a halide we&rsquo;re very familiar with, sodium chloride (<code>NaCl</code>), but they do have a handy physical property that makes them an essential part of photographic film: photosensitivity. They darken very quickly when exposed to light!</p>
+<p>These silver halides are suspended in gelatin to form the &ldquo;photographic emulsion&rdquo; which is <a href="https://en.wikipedia.org/wiki/Sol_%28colloid%29"  class="external-link" target="_blank" rel="noopener">not really an emulsion</a> but that&rsquo;s the term that stuck. Gelatin in this case is the same stuff that makes Jello wiggle. I did some digging while writing this and couldn&rsquo;t find a photographic film that does not use gelatin. I found this kind of mind-blowing.</p>
+<p>Since gelatin by itself would be relatively delicate, the silver-gelatin suspension is applied to a plastic protective film and voilà! You have extremely basic black-and-white photographic film! We&rsquo;ll talk about other elements of the design later.</p>
+<h3 id="film-and-light">
+  Film and Light
+  <a class="heading-link" href="#film-and-light">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>We have a strip of plastic with a layer of gelatin on it and a bunch of chunky silver halide crystals suspended in the gelatin. Let&rsquo;s say we expose it to some light.</p>
+<p>Photons, the fundamental particles that represent electromagnetic radiation such as light (including UV and infrared light), fly through our gelatin. Some of those photons hit the surface of one of our silver halide crystals! When this happens, some of the silver halide molecules <a href="https://en.wikipedia.org/wiki/Organic_redox_reaction"  class="external-link" target="_blank" rel="noopener">reduce</a> leaving a few atoms of metallic silver on the crystal. Remember the darkening I mentioned in the previous section? This is what&rsquo;s happening under the hood. With sufficient exposure, there&rsquo;ll be clusters of metallic silver atoms that will form what&rsquo;s called a <a href="https://en.wikipedia.org/wiki/Latent_image"  class="external-link" target="_blank" rel="noopener">latent image</a>. The latent image is persistent and quite stable, especially when kept cool.</p>
 <p>Now that you&rsquo;ve exposed your film, you&rsquo;re off to the darkroom!</p>
-<h3 id="developing-the-film">Developing the Film</h3>
+<h3 id="developing-the-film">
+  Developing the Film
+  <a class="heading-link" href="#developing-the-film">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <blockquote>
 <p>An important note:
-&ldquo;Developing the film&rdquo; is often how you&rsquo;d describe the entire process of taking
-a shot roll of film and turning it into stable (no longer light-sensitive)
-negatives that you can scan or print. This process involves a few steps and
-you can get a good idea of what&rsquo;s involved by checking out my
-<a href="/posts/pushing-delta-3200/">post about Pushing Delta 3200</a>.
-The first of these steps is quite literally the developer step and, for the
-rest of this post, when I use the term &ldquo;develop&rdquo;, that specific step is what
-I&rsquo;m referring to unless otherwise noted.</p>
+&ldquo;Developing the film&rdquo; is often how you&rsquo;d describe the entire process of taking a shot roll of film and turning it into stable (no longer light-sensitive) negatives that you can scan or print. This process involves a few steps and you can get a good idea of what&rsquo;s involved by checking out my <a href="/posts/pushing-delta-3200/" >post about Pushing Delta 3200</a>.
+The first of these steps is quite literally the developer step and, for the rest of this post, when I use the term &ldquo;develop&rdquo;, that specific step is what I&rsquo;m referring to unless otherwise noted.</p>
 </blockquote>
-<p>Development of a single crystal of silver halide is a binary thing. It&rsquo;s either
-developed or it&rsquo;s not. <code>1</code> or <code>0</code>. It doesn&rsquo;t half happen but it also doesn&rsquo;t
-happen immediately upon making contact with the developing solution.
-Those clusters of metallic silver atoms created during exposure are catalysts
-which shorten the
-time it takes for the developer to flip the bit, shall we say.
-It might he helpful to think of the development of an individual crystal as being
-set to a kitchen timer.
-<em>The strength of the initial exposure lowers the amount of time initially set on the
-timer</em>. Once started, it&rsquo;ll tick it&rsquo;s way down until <code>ding!</code>, the entire silver
-halide crystal has turned into dark, developed grain of metallic silver.</p>
-<p>When zooming out and looking at an entire frame, you have millions and millions of
-silver halide crystals present, sort of like little pixels. So even though
-this is a binary process at the individual crystal level, smooth tonal gradients
-from black to white in the final image are entirely possible.
-Crystal size varies and bigger crystals can have bigger clusters
-of silver which means the supposed kitchen timer has a shorter initial time.
-Also, not every crystal will necessarily be exposed in the same manner. If you
-think of a soft light at the centre of the frame, the centre of that light is
-where exposure was most intense, fading off as you move away from it. Thus, the
-neighbouring crystals will have varied times set on their own little individual
-kitchen timers. That said, detailed edges are also possible because sharp
-delineations between exposed regions will result in sharp differences in the
-delay times between neighbouring crystals. The neighbours don&rsquo;t talk to each
-other, so if one has a big cluster of metallic silver due to intense exposure to
-light, the one next door might not.</p>
-<p>There is a point where something can be underexposed enough that it just can&rsquo;t
-be developed. This is why pushing
-film increases contrast dramatically. You can&rsquo;t develop detail that isn&rsquo;t there
-so the least exposed areas will fail to develop while you push detail more and
-more in the exposed areas.</p>
-<p>Once the development step is done, we still have a bunch of undeveloped
-silver halide crystals left lying around in the image in areas that were
-not exposed to a lot of light and FWIW, the <code>fixing step</code>
-(which happens after development) is what removes those.</p>
-<p>Also: Keep in mind that we&rsquo;re dealing with negatives here. Highlights in the
-resulting final image will be the ones that were exposed the most and turned
-darker on the negative.
-Shadows on the final image will be the parts that received less exposure
-and (after the <code>fixing step</code>) result in a more transparent section of the negative.</p>
-<h3 id="improving-the-design-a-bit">Improving the Design A Bit</h3>
-<p>Modern black and white film is a lot more complex than a piece of plastic
-covered in a layer of Jello with some salt suspended in it. I mentioned before
-that there are a few things we can do to make our film a bit more useful.</p>
-<p>The biggest drawback in the simple design described above is that it&rsquo;s
-actually only photosensitive to blue and UV light! This hurdle was overcome
-at the start of the 1900&rsquo;s by adding dyes to the photographic emulsion to
-make it
-&ldquo;<a href="https://en.wikipedia.org/wiki/Panchromatic_film">panchromatic</a>&rdquo;
-or sensitive to the full range of visible light.
-When you think of a photographer working under a deep red light in a
-darkroom, they&rsquo;re using
-&ldquo;<a href="https://en.wikipedia.org/wiki/Orthochromasia">orthochromatic</a>&rdquo;
-film which is not sensitive to red light.</p>
-<p>It&rsquo;s worth noting that modern black and white film is still quite sensitive to
-UV light. Many photographers will overcome this by using a UV filter in front
-of their lens to prevent the UV light from fogging up their images. Unless
-of course that&rsquo;s what they&rsquo;re going for!</p>
-<p>Modern films also have another layer that prevents light from
-reflecting inside the film and causing fogging or discolouring. This is
-called an
-<a href="https://en.wikipedia.org/wiki/Anti-halation_backing">anti-halation backing</a>.</p>
-<h3 id="revisiting-film-speed-in-practical-terms">Revisiting Film Speed in Practical Terms</h3>
-<p>When we talk about film speed, we&rsquo;re describing how sensitive a film stock
-is to light. Modern film comes in a number of speeds and are described
-by film manufacturers with an ISO value. This might be written as ASA
-but honestly, a comparison of film speeds and the resulting images sounds
-like it should be its own little essay.</p>
-<p>So to be precise: for a given lighting situation, with the other parameters
-of exposure (shutter speed, aperture) kept the exact same, using the default
-development technique, a &ldquo;faster film&rdquo; will result in a brighter image.</p>
+<p>Development of a single crystal of silver halide is a binary thing. It&rsquo;s either developed or it&rsquo;s not. <code>1</code> or <code>0</code>. It doesn&rsquo;t half happen but it also doesn&rsquo;t happen immediately upon making contact with the developing solution. Those clusters of metallic silver atoms created during exposure are catalysts which shorten the time it takes for the developer to flip the bit, shall we say. It might he helpful to think of the development of an individual crystal as being set to a kitchen timer. <em>The strength of the initial exposure lowers the amount of time initially set on the timer</em>. Once started, it&rsquo;ll tick it&rsquo;s way down until <code>ding!</code>, the entire silver halide crystal has turned into dark, developed grain of metallic silver.</p>
+<p>When zooming out and looking at an entire frame, you have millions and millions of silver halide crystals present, sort of like little pixels. So even though this is a binary process at the individual crystal level, smooth tonal gradients from black to white in the final image are entirely possible. Crystal size varies and bigger crystals can have bigger clusters of silver which means the supposed kitchen timer has a shorter initial time. Also, not every crystal will necessarily be exposed in the same manner. If you think of a soft light at the centre of the frame, the centre of that light is where exposure was most intense, fading off as you move away from it. Thus, the neighbouring crystals will have varied times set on their own little individual kitchen timers. That said, detailed edges are also possible because sharp delineations between exposed regions will result in sharp differences in the delay times between neighbouring crystals. The neighbours don&rsquo;t talk to each other, so if one has a big cluster of metallic silver due to intense exposure to light, the one next door might not.</p>
+<p>There is a point where something can be underexposed enough that it just can&rsquo;t be developed. This is why pushing film increases contrast dramatically. You can&rsquo;t develop detail that isn&rsquo;t there so the least exposed areas will fail to develop while you push detail more and more in the exposed areas.</p>
+<p>Once the development step is done, we still have a bunch of undeveloped silver halide crystals left lying around in the image in areas that were not exposed to a lot of light and FWIW, the <code>fixing step</code> (which happens after development) is what removes those.</p>
+<p>Also: Keep in mind that we&rsquo;re dealing with negatives here. Highlights in the resulting final image will be the ones that were exposed the most and turned darker on the negative. Shadows on the final image will be the parts that received less exposure and (after the <code>fixing step</code>) result in a more transparent section of the negative.</p>
+<h3 id="improving-the-design-a-bit">
+  Improving the Design A Bit
+  <a class="heading-link" href="#improving-the-design-a-bit">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Modern black and white film is a lot more complex than a piece of plastic covered in a layer of Jello with some salt suspended in it. I mentioned before that there are a few things we can do to make our film a bit more useful.</p>
+<p>The biggest drawback in the simple design described above is that it&rsquo;s actually only photosensitive to blue and UV light! This hurdle was overcome at the start of the 1900&rsquo;s by adding dyes to the photographic emulsion to make it &ldquo;<a href="https://en.wikipedia.org/wiki/Panchromatic_film"  class="external-link" target="_blank" rel="noopener">panchromatic</a>&rdquo; or sensitive to the full range of visible light. When you think of a photographer working under a deep red light in a darkroom, they&rsquo;re using &ldquo;<a href="https://en.wikipedia.org/wiki/Orthochromasia"  class="external-link" target="_blank" rel="noopener">orthochromatic</a>&rdquo; film which is not sensitive to red light.</p>
+<p>It&rsquo;s worth noting that modern black and white film is still quite sensitive to UV light. Many photographers will overcome this by using a UV filter in front of their lens to prevent the UV light from fogging up their images. Unless of course that&rsquo;s what they&rsquo;re going for!</p>
+<p>Modern films also have another layer that prevents light from reflecting inside the film and causing fogging or discolouring. This is called an <a href="https://en.wikipedia.org/wiki/Anti-halation_backing"  class="external-link" target="_blank" rel="noopener">anti-halation backing</a>.</p>
+<h3 id="revisiting-film-speed-in-practical-terms">
+  Revisiting Film Speed in Practical Terms
+  <a class="heading-link" href="#revisiting-film-speed-in-practical-terms">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>When we talk about film speed, we&rsquo;re describing how sensitive a film stock is to light. Modern film comes in a number of speeds and are described by film manufacturers with an ISO value. This might be written as ASA but honestly, a comparison of film speeds and the resulting images sounds like it should be its own little essay.</p>
+<p>So to be precise: for a given lighting situation, with the other parameters of exposure (shutter speed, aperture) kept the exact same, using the default development technique, a &ldquo;faster film&rdquo; will result in a brighter image.</p>
 <p><strong>So what is it that makes film faster or slower?</strong></p>
-<p>Mainly the size and design of the crystal structure of the silver
-halides that are present in the photographic emulsion. Bigger crystals will
-give more surface area for light to hit and thus make the film more
-photosensitive. A
-<a href="https://en.wikipedia.org/wiki/Tabular-grain_film">wide light-facing surface area</a>
-(this is the T in
-<a href="https://en.wikipedia.org/wiki/Kodak_T-MAX">Kodak T-Max</a>)
-also allows the film to be more efficient which enables both extremely fast, usable
-films (such as Ilford Delta 3200 and T-Max P3200) and very detailed films at
-user-friendly speeds (such as Kodak T-Max 100).</p>
-<p>High-quality slow film will have fine grain. If that is shot
-and developed well, the resulting image will be crisp with a very light texture and
-lots of sharp detail. The faster the film, the grainier it gets until you end
-up with a photograph that looks like it&rsquo;s been coated in road salt. I think
-fast film looks awesome so &ldquo;higher image quality&rdquo; really depends on what you&rsquo;re
-going for. With that said, slower films can capture more detail due to
-their design and are therefore more enlargement-friendly than fast films.</p>
-<h3 id="examples">Examples</h3>
-<p>All of these examples were scanned as RAWs with a Nikon D850, a 60mm Micro Nikkor 2.8G,
-and processed in Adobe Lightroom using Negative Lab Pro.</p>
-<h4 id="full-res-crop-of-ilford-ortho-plus-iso-80-film">Full res crop of Ilford ORTHO Plus ISO 80 film</h4>
-<p>Fine grain, relatively sharp edges. You can see some petal detail.
-I could have shot this sharper I think but who looks at things
-this closely IRL?</p>
-<p>Fun note: this is also an orthochromatic film! I briefly
-mentioned this above. TL;DR: This film can&rsquo;t see reds very well (if at all)
-and they will be rendered much darker in the final image.</p>
+<p>Mainly the size and design of the crystal structure of the silver halides that are present in the photographic emulsion. Bigger crystals will give more surface area for light to hit and thus make the film more photosensitive. A <a href="https://en.wikipedia.org/wiki/Tabular-grain_film"  class="external-link" target="_blank" rel="noopener">wide light-facing surface area</a> (this is the T in <a href="https://en.wikipedia.org/wiki/Kodak_T-MAX"  class="external-link" target="_blank" rel="noopener">Kodak T-Max</a>) also allows the film to be more efficient which enables both extremely fast, usable films (such as Ilford Delta 3200 and T-Max P3200) and very detailed films at user-friendly speeds (such as Kodak T-Max 100).</p>
+<p>High-quality slow film will have fine grain. If that is shot and developed well, the resulting image will be crisp with a very light texture and lots of sharp detail. The faster the film, the grainier it gets until you end up with a photograph that looks like it&rsquo;s been coated in road salt. I think fast film looks awesome so &ldquo;higher image quality&rdquo; really depends on what you&rsquo;re going for. With that said, slower films can capture more detail due to their design and are therefore more enlargement-friendly than fast films.</p>
+<h3 id="examples">
+  Examples
+  <a class="heading-link" href="#examples">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>All of these examples were scanned as RAWs with a Nikon D850, a 60mm Micro Nikkor 2.8G, and processed in Adobe Lightroom using Negative Lab Pro.</p>
+<h4 id="full-res-crop-of-ilford-ortho-plus-iso-80-film">
+  Full res crop of Ilford ORTHO Plus ISO 80 film
+  <a class="heading-link" href="#full-res-crop-of-ilford-ortho-plus-iso-80-film">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Fine grain, relatively sharp edges. You can see some petal detail. I could have shot this sharper I think but who looks at things this closely IRL?</p>
+<p>Fun note: this is also an orthochromatic film! I briefly mentioned this above. TL;DR: This film can&rsquo;t see reds very well (if at all) and they will be rendered much darker in the final image.</p>
 <p><img src="/images/ortho-80-flower-detail.jpg" alt="Flower Detail"></p>
-<p>(<a href="https://flic.kr/p/2nbsZCt">Full size image</a>)</p>
-<h4 id="full-res-crop-of-delta-3200-pushed-to-12800">Full res crop of Delta 3200 pushed to 12800</h4>
-<p>Pushing the film exaggerates the grain but you can certainly see the
-difference. Still sharp and still has detail but that&rsquo;s some coarse
-grain for sure.</p>
-<p>I absolutely love Delta 3200. This is such a fun film to shoot with the
-speed and the ridiculous grain.</p>
+<p>(<a href="https://flic.kr/p/2nbsZCt"  class="external-link" target="_blank" rel="noopener">Full size image</a>)</p>
+<h4 id="full-res-crop-of-delta-3200-pushed-to-12800">
+  Full res crop of Delta 3200 pushed to 12800
+  <a class="heading-link" href="#full-res-crop-of-delta-3200-pushed-to-12800">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Pushing the film exaggerates the grain but you can certainly see the difference. Still sharp and still has detail but that&rsquo;s some coarse grain for sure.</p>
+<p>I absolutely love Delta 3200. This is such a fun film to shoot with the speed and the ridiculous grain.</p>
 <p><img src="/images/delta-3200-watch-detail.jpg" alt="Watch Detail"></p>
-<p>(<a href="https://flic.kr/p/2n47uVR">Full size image</a>)</p>
-<h4 id="hardware-store-on-ortho-80">Hardware store on Ortho 80</h4>
+<p>(<a href="https://flic.kr/p/2n47uVR"  class="external-link" target="_blank" rel="noopener">Full size image</a>)</p>
+<h4 id="hardware-store-on-ortho-80">
+  Hardware store on Ortho 80
+  <a class="heading-link" href="#hardware-store-on-ortho-80">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>Resized to web, the grain is almost invisible.</p>
 <p><img src="/images/preston.jpg" alt="Preston Hardware"></p>
-<h4 id="wood-stove-on-delta-3200">Wood Stove on Delta 3200</h4>
-<p>Grain is still very apparent, even resized for web, especially in
-shadow areas.</p>
+<h4 id="wood-stove-on-delta-3200">
+  Wood Stove on Delta 3200
+  <a class="heading-link" href="#wood-stove-on-delta-3200">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Grain is still very apparent, even resized for web, especially in shadow areas.</p>
 <p><img src="/images/woodstove.jpg" alt="Warm Wood Stove"></p>
-<h3 id="thats-it">That&rsquo;s it!</h3>
-<p>This was fun. Be sure to read
-<a href="/posts/pushing-delta-3200/">my post about Delta 3200</a>
-too for a bit more context and a higher-level view of the whole
-film development process.</p>
+<h3 id="thats-it">
+  That&rsquo;s it!
+  <a class="heading-link" href="#thats-it">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This was fun. Be sure to read <a href="/posts/pushing-delta-3200/" >my post about Delta 3200</a> too for a bit more context and a higher-level view of the whole film development process.</p>
 
       </div>
 
@@ -354,48 +317,78 @@ film development process.</p>
         
         
         
+        
+        
+        
+        
       </footer>
     </article>
 
     
   </section>
 
-      </div>
+    </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-      
-      
-      
-    </section>
-  </footer>
-
-
-    </main>
-
+    <footer class="footer">
+  <section class="container">
+    ©
     
-      
-        
-        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
-      
+      2020 -
     
+    2024
+     I&#39;m Ryan 
+    ·
+    
+     <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
 
-    
+  </main>
 
-    
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
   
 
 
+  
 
-    
+  
 
-    
+  
 
-    
+  
 
-    
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>
