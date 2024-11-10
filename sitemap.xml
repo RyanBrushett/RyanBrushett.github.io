@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ryanbrushett.com/posts/</loc>
+    <lastmod>2024-11-08T19:53:29-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/</loc>
+    <lastmod>2024-11-08T19:53:29-05:00</lastmod>
+  </url><url>
+    <loc>https://www.ryanbrushett.com/posts/values/</loc>
+    <lastmod>2024-11-08T19:53:29-05:00</lastmod>
+  </url><url>
     <loc>https://www.ryanbrushett.com/posts/advent-2023/</loc>
     <lastmod>2023-12-03T12:59:17-05:00</lastmod>
   </url><url>
@@ -11,16 +20,10 @@
     <loc>https://www.ryanbrushett.com/tags/code/</loc>
     <lastmod>2023-12-03T12:59:17-05:00</lastmod>
   </url><url>
-    <loc>https://www.ryanbrushett.com/posts/</loc>
-    <lastmod>2023-12-03T12:59:17-05:00</lastmod>
-  </url><url>
     <loc>https://www.ryanbrushett.com/tags/programming/</loc>
     <lastmod>2023-12-03T12:59:17-05:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/tags/ruby/</loc>
-    <lastmod>2023-12-03T12:59:17-05:00</lastmod>
-  </url><url>
-    <loc>https://www.ryanbrushett.com/</loc>
     <lastmod>2023-12-03T12:59:17-05:00</lastmod>
   </url><url>
     <loc>https://www.ryanbrushett.com/categories/software-development/</loc>
