@@ -6,8 +6,15 @@
     <description>Recent content in Posts on ryan brushett</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 08 Nov 2024 19:53:29 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 19:53:29 -0500</lastBuildDate>
     <atom:link href="https://www.ryanbrushett.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ryan&#39;s README</title>
+      <link>https://www.ryanbrushett.com/posts/readme/</link>
+      <pubDate>Tue, 12 Nov 2024 19:53:29 -0500</pubDate>
+      <guid>https://www.ryanbrushett.com/posts/readme/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Ryan! I&amp;rsquo;m many things, but one of them is a software developer. If you&amp;rsquo;re reading this, there&amp;rsquo;s a pretty good chance we work together, or we might soon work together, or we crossed paths in some professional context, or something like that. Neato! The intention of this document is to help you understand how I work best and how you can work best with me.&lt;/p&gt;&#xA;&lt;p&gt;You can skip to whichever section you think applies best to whatever you&amp;rsquo;re most interested in.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Things That Are Important To Me</title>
       <link>https://www.ryanbrushett.com/posts/values/</link>
